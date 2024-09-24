@@ -1,4 +1,4 @@
-// Clases específicas para cada tipo de equipo
+// Una clase especifica para cada tipo de equipo
 class Notebook {
   constructor(
     public nombre: string,
@@ -35,7 +35,7 @@ class Servidor {
   }
 }
 
-// Factory para crear equipos
+// Clase Factory para crear objetos
 class EquipoFactory {
   public crearEquipo(
     tipo: string,

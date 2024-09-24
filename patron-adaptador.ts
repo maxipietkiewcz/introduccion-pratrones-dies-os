@@ -11,7 +11,7 @@ class InventarioViejo {
   }
 }
 
-// Adaptador que convierte la interfaz antigua a la nueva
+// Adaptador
 class AdaptadorInventario {
   constructor(private inventarioViejo: InventarioViejo) {}
 
